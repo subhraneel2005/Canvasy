@@ -1,0 +1,11 @@
+{
+    "extends": "@repo/typescript-config/base.json",
+    "compilerOptions": {
+        "outDir": "./dist", // Output directory
+        "rootDir": "./src", // Root directory of source files
+        "target": "ES2020", // Or another compatible ES version
+        "strict": true
+      },
+      "include": ["src"], // Include the source directory
+      "exclude": ["node_modules", "dist"] // Exclude unnecessary files
+}
